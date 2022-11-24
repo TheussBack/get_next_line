@@ -1,6 +1,5 @@
-Bonjour comment ca va la zone
-et 
-toii
+Bonjour
 ca
-va ?
-
+va
+et
+vous?
