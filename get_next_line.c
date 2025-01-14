@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hrobin <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: hortense <hortense@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/21 13:51:57 by hrobin            #+#    #+#             */
-/*   Updated: 2022/11/24 08:45:02 by hrobin           ###   ########.fr       */
+/*   Updated: 2025/01/14 12:00:51 by hortense         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,13 +104,13 @@ char	*get_next_line(int fd)
 	rest_str = ft_newstr(rest_str); // on recup si ya qqchose apres le /n
 	return (line);
 }
-/*
+
 int main()
 {
      int fd; // file descriptor
      char *line; // ligne a lire
 
-     fd = open("blabla.txt", O_RDONLY); // on ouvre notre fichier en read only
+     fd = open("TextToPrint.txt", O_RDONLY); // on ouvre notre fichier en read only
      while(1)
      {
          line = get_next_line(fd); // on lit la ligne de notre fichier ouvert et on la stock dans line
@@ -127,4 +127,3 @@ int main()
      }
      return (0);
  }
-*/
